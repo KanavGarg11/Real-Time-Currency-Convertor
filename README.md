@@ -1,4 +1,4 @@
-#💱 Currency Converter
+# 💱 Currency Converter
 
 A dynamic, asynchronous currency converter web application that fetches real-time currency exchange rates.
 
