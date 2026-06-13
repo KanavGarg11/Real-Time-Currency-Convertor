@@ -41,6 +41,9 @@ A dynamic, asynchronous currency converter web application that fetches real-tim
 
 ```text
 .
+├── images
+     ├── preview_image_1.png
+     ├── preview_image_2.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -55,7 +58,7 @@ A dynamic, asynchronous currency converter web application that fetches real-tim
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/currency-converter.git
+git clone https://github.com/KanavGarg11/Real-Time-Currency-Convertor.git
 ```
 
 ### Open the application
