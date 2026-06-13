@@ -31,8 +31,9 @@ A dynamic, asynchronous currency converter web application that fetches real-tim
 ---
 
 ## 📸 Preview
+![Home Screen](images/preview_image_1.png)
 
-Add screenshots of your project here.
+![Conversion Example](images/preview_image_2.png)
 
 ---
 
