@@ -1,4 +1,4 @@
-💱 Currency Converter
+### 💱 Currency Converter
 
 A dynamic, asynchronous currency converter web application that fetches real-time currency exchange rates.
 
@@ -51,23 +51,21 @@ Add screenshots of your project here.
 
 ## ⚙️ SETUP
 
-### Clone the repository
+# Clone the repository
 
 ```bash
 git clone https://github.com/your-username/currency-converter.git
 ```
 
-### Open the application
+# Open the application
 
 Simply open `index.html` in your browser.
 
 ---
 
-## 🔑 API Key Setup
+# 🔑 API Key Setup
 
-This project requires an API key to fetch live exchange rates.
-
-This project uses the Currency API for fetching live exchange rates.
+This project uses the CurrencyAPI and requires an API key for fetching live exchange rates.
 
 1) Create an account at the API provider.
 2) Generate your API key.
