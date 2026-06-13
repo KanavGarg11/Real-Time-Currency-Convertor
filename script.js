@@ -12,6 +12,8 @@ let amount_input_2 = document.querySelector("#amount_2") ;
 let currency_name_1 = document.querySelector(".currency_name_1") ;
 let currency_name_2 = document.querySelector(".currency_name_2") ;
 
+const API_KEY = "ENTER_YOUR_API_KEY_HERE";
+
 //------------------------------------------------------------
 
 //IMPORTING COUNTRY CODES FOR DROPDOWNS IN MAIN JS FILE
@@ -59,7 +61,7 @@ function updateFlag2( country_code )
 //FOR CONVERSION DISPLAYS
 async function getFactor(from_code, to_code) {
     try {
-        let result = await fetch(`https://api.currencyapi.com/v3/latest?apikey=cur_live_H49T7Wm3GRJhxjKOeNHfejQa5yJoIN9luXZTXwo7&currencies=${to_code}&base_currency=${from_code}`);
+        let result = await fetch(`https://api.currencyapi.com/v3/latest?apikey=API_KEY&currencies=${to_code}&base_currency=${from_code}`);
         result = await result.json();
         result = await result.data[to_code].value;
         return result;
