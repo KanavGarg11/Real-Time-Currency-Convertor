@@ -67,7 +67,7 @@ async function getFactor(from_code, to_code) {
         return result;
     } catch (error) {
         console.error("Failed to fetch currency data:", error);
-        alert("Could not load exchange rates. Please check your connection.");
+        alert("Could not fetch.\nUse Your API Key Or Check Internet Connection.");
         return null;
     }
 }
